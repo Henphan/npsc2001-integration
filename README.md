@@ -13,11 +13,15 @@ pip install requirements.txt
 gh repo clone https://github.com/rmaphoh/AutoMorph
 ```
 3. Set the paths at the start of 'automation.py' to the correct locations for you.
-4. Run automation.py, 
+4. Create the required directories:
+```
+mkdir images/ masks/
+```
+5. Run automation.py, 
 ```
 python automation.py
 ```
-5. Run the fibre-enhancement pipeline:
+6. Run the fibre-enhancement pipeline:
 ```
 python preproccessing.py
 ```
